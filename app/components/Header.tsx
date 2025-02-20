@@ -83,11 +83,15 @@ const Header = () => {
           className="md:hidden bg-white dark:bg-black p-4 space-y-4 text-center shadow-md"
         >
           {[
-            { name: "Home", path: "/" },
-            { name: "Work", path: "/work" },
-            { name: "Projects", path: "/projects" },
-            { name: "Tech Stack", path: "/techstack" },
-            { name: "Contact", path: "/contact" },
+                 { name: "Home", path: "/" },
+                 { name: "Key Points", path: "/Keypoints" },
+                 { name: "Projects", path: "/project" },
+                 { name: "Experience", path: "/Experience" },
+                 { name: "About me", path: "/about" },
+                 { name: "Tech Stack", path: "/techstack" },
+                 { name: "Contact", path: "/contact" },
+                 { name: "Book a Call", path: "/Bookacall" },
+           
           ].map(({ name, path }) => (
             <Link
               key={path}
