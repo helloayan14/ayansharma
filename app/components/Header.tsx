@@ -37,7 +37,7 @@ const Header = () => {
           AS
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation */}          
         <nav className="hidden md:flex space-x-6">
           {[
             { name: "Home", path: "/" },

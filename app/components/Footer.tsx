@@ -12,9 +12,9 @@ const Footer = () => {
             Helping you create experiences where aesthetics & functionality seamlessly come together.
           </p>
           <div className="flex items-center gap-4 mt-6 text-xl">
-            <FaLinkedin className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300 " />
-            <FaGithub className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300" />
-            <FaTwitter className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300" />
+           <Link href="https://www.linkedin.com/in/imayansharma/"><FaLinkedin className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300 " /></Link> 
+           <Link href="https://github.com/helloayan14"><FaGithub className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300" /></Link> 
+           <Link href="https://x.com/imayansharma"> <FaTwitter className="cursor-pointer text-black hover:text-black dark:text-white dark:hover:text-gray-300" /></Link> 
           </div>
         </div>
 
